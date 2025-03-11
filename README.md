@@ -1,6 +1,4 @@
-# ML_Financial_Fraud_Detection
-
-Financial Fraud Dataset - Basic Pipeline 
+# ML_Financial_Fraud_Detection Dataset - Basic Pipeline 
 NOTE: READ THIS DOCUMENT THOROUGHLY FOR SUCCESS 
 Background 
 Throughout our exploration of various supervised learning algorithms, a common theme that you all might have detected (no pun intended) is the concept of extracting some signal from a noisy dataset. 
