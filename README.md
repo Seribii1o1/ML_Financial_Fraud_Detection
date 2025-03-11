@@ -1,25 +1,47 @@
 # ML_Financial_Fraud_Detection Dataset - Basic Pipeline 
-NOTE: READ THIS DOCUMENT THOROUGHLY FOR SUCCESS 
-Background 
+NOTE: READ THIS DOCUMENT THOROUGHLY FOR SUCCESS
+
+**Background:**
+
 Throughout our exploration of various supervised learning algorithms, a common theme that you all might have detected (no pun intended) is the concept of extracting some signal from a noisy dataset. 
 This often applies to datasets where our class of interest (fraud, basketball upset, etc) is in the “minority” class of an imbalanced dataset. 
 This problem often occurs in the detection of financial fraud. While we can assume that most transactions are credible, classifying every new sample as non-fraudulent (0) will miss every single fraudulent case. 
-Within this project, we will take a look at a synthetic dataset of bank transactions to see which strategies we can take in order to successfully capture as many fraudulent transactions as possible, while also minimizing false positives. 
+Within this project, we will take a look at a synthetic dataset of bank transactions to see which strategies we can take in order to successfully capture as many fraudulent transactions as possible, while also minimizing false positives.
+
 This dataset contains a mix of discrete and continuous variables. As you review this list of columns, consider which columns might not be relevant to your analysis: 
-● Step: A unit of time that represents hours in the dataset. Think of this as the timestamp of the transaction (e.g. hour 1, hour 2, … hour 534, …) 
+
+● Step: A unit of time that represents hours in the dataset. Think of this as the timestamp of the transaction (e.g. hour 1, hour 2, … hour 534, …)
+
 ● Type: The type of transaction 
+
 ● Amount: The amount of money transferred 
+
 ● NameOrig: The origin account name
-● OldBalanceOrg: The origin accounts balance before the transaction ● NewBalanceOrg: The origin accounts balance after the transaction 
+
+● OldBalanceOrg: The origin accounts balance before the transaction
+
+● NewBalanceOrg: The origin accounts balance after the transaction 
+
 ● NameDest: The destination account name 
-● OldbalanceDest: The destination accounts balance before the transaction ● NewbalanceDest: The destination accounts balance after the transaction 
+
+● OldbalanceDest: The destination accounts balance before the transaction
+
+● NewbalanceDest: The destination accounts balance after the transaction 
+
 ● IsFlaggedFraud: A “naive” model that simply flags a transaction as fraudulent if it is greater than 200,000 (note that this currency is not USD) 
+
 ● IsFraud: Was this simulated transaction actually fraudulent? In this case, we consider “fraud” to be a malicious transaction that aimed to transfer funds out of a victim’s bank account before the account owner could secure their information. 
-Within this project, you will be creating a comprehensive machine learning pipeline that satisfies the patterned steps of a classic machine learning project. You will: 
-● begin with hypothesis formulation through EDA, 
+
+Within this project, you will be creating a comprehensive machine-learning pipeline that satisfies the patterned steps of a classic machine learning project. You will:
+
+● begin with hypothesis formulation through EDA,
+
 ● complete data cleaning & pre-processing, 
-● and conclude with model generation and a report. 
-Instructions 
+
+● and conclude with model generation and a report.
+
+**Instructions**
+
 The following is a list of expected notebooks that should be included in your project: 
 1. Initial EDA 
 ○ Your project should begin with a notebook where you perform univariate, bivariate, and multivariate exploratory analysis. 
@@ -53,10 +75,14 @@ We provide links to both models. Check out the example code to get started. Also
 4. How do I implement hyperparameter tuning? 
 We provide links to both Grid & RandomizedSearch objects. Check out the example code provided, as well as your code from the previous weeks labs for ideas. 
 5. Which model/hyperparameter tuning strategy do I choose? 
-This is your executive decision to make. Better yet, why don’t you try out both and see which one performs better? 
-Submission 
-Submit a link to your repository with all required notebooks and write ups tp Canvas
-For an example of how this machine learning project could look like, check out the following repositories: 
-● Fish Toxicity 
-● Student Performance Prediction 
+This is your executive decision to make. Better yet, why don’t you try out both and see which one performs better?
+ 
+**Submission**
+Submit a link to your repository with all required notebooks and write-ups to Canvas
+For an example of how this machine learning project could look like, check out the following repositories:
+
+● [Fish Toxicity](https://github.com/mjcolon218/ML_Fish_Toxicity_Prediction/tree/main) 
+
+● [Student Performance Prediction](https://github.com/mjcolon218/ML_Student_Performance_Prediction/tree/main) 
+
 We are primarily interested in seeing which ideas you took away from the previous weeks of supervised learning. Hesitate to copy ChatGPT code, you will not receive accurate feedback by providing us with LLM generated code. We want to see your work.
