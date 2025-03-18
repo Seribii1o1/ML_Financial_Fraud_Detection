@@ -8,30 +8,6 @@ This often applies to datasets where our class of interest (fraud, basketball up
 This problem often occurs in the detection of financial fraud. While we can assume that most transactions are credible, classifying every new sample as non-fraudulent (0) will miss every single fraudulent case. 
 Within this project, we will take a look at a synthetic dataset of bank transactions to see which strategies we can take in order to successfully capture as many fraudulent transactions as possible, while also minimizing false positives.
 
-This dataset contains a mix of discrete and continuous variables. As you review this list of columns, consider which columns might not be relevant to your analysis: 
-
-● Step: A unit of time that represents hours in the dataset. Think of this as the timestamp of the transaction (e.g. hour 1, hour 2, … hour 534, …)
-
-● Type: The type of transaction 
-
-● Amount: The amount of money transferred 
-
-● NameOrig: The origin account name
-
-● OldBalanceOrg: The origin accounts balance before the transaction
-
-● NewBalanceOrg: The origin accounts balance after the transaction 
-
-● NameDest: The destination account name 
-
-● OldbalanceDest: The destination accounts balance before the transaction
-
-● NewbalanceDest: The destination accounts balance after the transaction 
-
-● IsFlaggedFraud: A “naive” model that simply flags a transaction as fraudulent if it is greater than 200,000 (note that this currency is not USD) 
-
-● IsFraud: Was this simulated transaction actually fraudulent? In this case, we consider “fraud” to be a malicious transaction that aimed to transfer funds out of a victim’s bank account before the account owner could secure their information. 
-
 Within this project, you will be creating a comprehensive machine-learning pipeline that satisfies the patterned steps of a classic machine learning project. You will:
 
 ● begin with hypothesis formulation through EDA,
