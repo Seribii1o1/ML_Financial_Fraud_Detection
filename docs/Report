@@ -1,6 +1,11 @@
 **i. Which insights did you gain from your EDA?**
 
-ii. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed. 
+ Fraudulent transactions are high-amount, time-clustered (mostly after step 400), "C" accounts, and type-specific (TRANSFER and CASH_OUT). The current flagging system isFlaggedFraud is overly conservative (amount > 200,000), missing >99% of fraud. They often drain the origin account’s balance, with transaction amounts inversely related to the destination account’s pre-transaction balance.
+
+
+**ii. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed.**
+
+
 iii. Which hyperparameter tuning strategy did you use? Grid-search or random-search? Why? 
 iv. How did your model's performance change after discovering optimal hyperparameters? 
 v. What was your final F1 Score? 
