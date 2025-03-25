@@ -8,17 +8,17 @@ This often applies to datasets where our class of interest (fraud, basketball up
 This problem often occurs in the detection of financial fraud. While we can assume that most transactions are credible, classifying every new sample as non-fraudulent (0) will miss every single fraudulent case. 
 Within this project, we will take a look at a synthetic dataset of bank transactions to see which strategies we can take in order to successfully capture as many fraudulent transactions as possible, while also minimizing false positives.
 
-Within this project, you will be creating a comprehensive machine-learning pipeline that satisfies the patterned steps of a classic machine learning project. You will:
+I created a comprehensive machine-learning pipeline that satisfies the patterned steps of a classic machine learning project:
 
-● begin with hypothesis formulation through EDA,
+● hypothesis formulation through EDA
 
-● complete data cleaning & pre-processing, 
+● data cleaning & pre-processing 
 
-● and conclude with model generation and a report.
+● model generation and a report
 
-**Instructions**
+**Project Description**
 
-The following is a list of expected notebooks that should be included in your project: 
+Notebooks: 
 1. Initial EDA 
 ○ Your project should begin with a notebook where you perform univariate, bivariate, and multivariate exploratory analysis. 
 ○ Be sure to create relevant graphs that will help you formulate a hypothesis. ○ Keep in mind that we are not only interested in the relationships between our predictors and our target variable, but we are also interested in the 
@@ -33,16 +33,14 @@ potentially fixing incorrectly formatted data.
 RandomizedSearchCV (again, the choice is yours!) 
 ○ Upon finding optimal hyperparameters, we should re-train our model using these hyperparameters, generate predictions for this new model, and output the subsequent F1 score for this classifier. 
 4. Report 
-○ To conclude this project, we should answer the following 5 questions in a separate document attached to your project: 
+○ Five project conclusion questions answered in report file: 
 i. Which insights did you gain from your EDA? 
 ii. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed. 
 iii. Which hyperparameter tuning strategy did you use? Grid-search or random-search? Why? 
 iv. How did your model's performance change after discovering optimal hyperparameters? 
 v. What was your final F1 Score? 
 FAQ 
-1. This project seems really ambiguous, how should I start? 
-Part of being a successful technologist is figuring out how to start a project yourself. Oftentimes, we do not have frameworks to base our projects on, except for our own work. 
-Therefore, we recommend that you look back to your previous TLABS and in-class labs to see which code could potentially apply to each part of this project. 
+1. we recommend that you look back to your previous TLABS and in-class labs to see which code could potentially apply to each part of this project. 
 Looking back to our first TLAB (Rental Price Prediction), it looks like we have some template code for at least our EDA.
 2. How am I supposed to run my analysis if I don’t include my dataset in GitHub? 
 Keep in mind that just because something is not pushed to GItHub, does not mean that you will not be able to use it on your local machine (even if it is in your cloned git repository!) 
