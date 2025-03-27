@@ -9,7 +9,7 @@ I dropped the name columns since they are unique ids. I also dropped the naive m
 
 **iii. Which hyperparameter tuning strategy did you use? Grid-search or random-search? Why?**
 
-I focused on random-search since it is a faster strategy for a larger dataset.
+I focused on random-search since it is a faster strategy for a larger dataset. I was able to do Grid-search for Naive Bayes but it produced the same result as random-search. 
 
 **iv. How did your model's performance change after discovering optimal hyperparameters?** 
 
