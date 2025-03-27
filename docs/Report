@@ -13,4 +13,12 @@ I focused on random-search since it is a faster strategy for a larger dataset. I
 
 **iv. How did your model's performance change after discovering optimal hyperparameters?** 
 
+Logistic Regression: Overall F1 score improved
+Naive Bayes: Stayed the same
+kNN: Precision, recall, and F1 score for Fraud and macro average improved.
+
 **v. What was your final F1 Score?**
+
+Logistic Regression: 0.9986
+Naive Bayes: 0.7216
+kNN: 0.9993
