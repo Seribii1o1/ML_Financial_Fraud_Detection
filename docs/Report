@@ -5,6 +5,7 @@
 
 **ii. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed.**
 
+I dropped the name columns since they are unique ids. I also dropped the naive model "isFlaggedFraud". To reduce multicollinearity, I removed the newbalance variables based on the correlation matrix insights. 
 
 iii. Which hyperparameter tuning strategy did you use? Grid-search or random-search? Why? 
 iv. How did your model's performance change after discovering optimal hyperparameters? 
